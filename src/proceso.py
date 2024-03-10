@@ -1,3 +1,5 @@
+from src import utilidades as ut
+
 class proceso:
     def __init__(self, id, nombre, tiempo_llegada, tiempo_ejecucion, estado = "nuevo"):
         self.id = id
@@ -10,6 +12,6 @@ class proceso:
         if nuevo_estado:
             self.estado = nuevo_estado
         else:
-            print('No puede asignar un valor None al estado del proceso')
+            ut.utilidades.escribir_log('No puede asignar un valor None al estado del proceso', 'ERROR')
 
 
