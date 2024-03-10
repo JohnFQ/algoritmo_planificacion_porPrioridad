@@ -1,0 +1,9 @@
+
+# Operaciones numéricas
+numpy==1.26.4
+
+# Visualización de datos
+matplotlib==3.8.3
+
+# Manipulación de datos
+pandas==2.2.1
